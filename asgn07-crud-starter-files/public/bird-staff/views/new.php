@@ -15,7 +15,7 @@ if(is_post_request()) {
   $bird = [];
   
   $result = false;
-  if($result === true) {
+  if($result == true) {
     $new_id = 0;
     $_SESSION['message'] = 'The bird was created successfully.';
     redirect_to(url_for('/bird-staff/views/show.php?id=' . $new_id));

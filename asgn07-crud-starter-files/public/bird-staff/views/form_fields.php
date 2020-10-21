@@ -17,8 +17,8 @@ if(!isset($bird)) {
 </dl>
 
 <dl>
-  <dt>Habitat</dt>
-  <dd><input type="text" name="habitat" value="" /></dd>
+  <dt>Food</dt>
+  <dd><input type="text" name="food" value="" /></dd>
 </dl>
 
 <dl>
